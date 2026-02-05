@@ -1,89 +1,90 @@
 SQL Retail Sales Analysis (Project P1)
+
+
 Executive Summary
 
 Retail transaction data was analyzed using SQL to answer key business questions around sales performance, customer behavior, product categories, and order timing.
 The project focuses on data cleaning, aggregation, and analytical querying to generate actionable retail insights from raw transactional data.
-
 The output queries help stakeholders understand:
 
-Which categories drive the most revenue
+1. Which categories drive the most revenue
 
-Who the top customers are
+2. Who the top customers are
 
-When orders are most frequent
+3. When orders are most frequent
 
-Which months perform best each year
+4. Which months perform best each year
+
+
 
 Business Questions Solved
 
-Using SQL queries, the analysis answers:
+1. Using SQL queries, the analysis answers:
 
-Sales on specific dates
+2. Sales on specific dates
 
-Category performance & total revenue
+3. Category performance & total revenue
 
-High-value transactions
+4. High-value transactions
 
-Customer demographics by category
+5. Customer demographics by category
 
-Top 5 customers by total spend
+6. Top 5 customers by total spend
 
-Unique customers per category
+7. Unique customers per category
 
-Transactions by gender & category
+8. Transactions by gender & category
 
-Best selling month per year (window functions)
+9. Best selling month per year (window functions)
 
-Order distribution by time-of-day shifts
+10. Order distribution by time-of-day shifts
+
+
 
 Methodology
 
-Created database and retail_sales table
+1. Created database and retail_sales table
 
-Cleaned data by removing NULL records in critical fields
+2. Cleaned data by removing NULL records in critical fields
 
-Performed exploratory checks (counts, distinct categories, customers)
+3. Performed exploratory checks (counts, distinct categories, customers)
+
+
 
 Wrote analytical SQL queries using:
 
-Aggregations
+1. Aggregations
 
-Date & time functions
+2. Date & time functions
 
-Window functions
+3. Window functions
 
-CTEs
+4. CTEs
 
-CASE logic for shift bucketing
+5. CASE logic for shift bucketing
 
-Key SQL Skills Demonstrated
+   
 
-GROUP BY & aggregates (SUM, AVG, COUNT)
+Key SQL Skills Demonstrated:
 
-DISTINCT & customer segmentation
+GROUP BY & aggregates, DISTINCT & customer segmentation, Window functions, Date functions, CTE, Business-oriented query design
 
-Window functions (RANK with PARTITION BY)
 
-Date functions (EXTRACT, TO_CHAR)
 
-Time-based bucketing with CASE
 
-CTEs for structured analysis
 
-Business-oriented query design
+Results & Insights Enabled:
 
-Results & Insights Enabled
+1. The query set enables teams to quickly measure:
 
-The query set enables teams to quickly measure:
+2. Revenue by product category
 
-Revenue by product category
+3. Customer concentration among top buyers
 
-Customer concentration among top buyers
+4. Seasonal best-performing months
 
-Seasonal best-performing months
+5. Gender-category transaction mix
 
-Gender-category transaction mix
-
-Order patterns by shift (Morning / Afternoon / Evening)
+6. Order patterns by shift (Morning / Afternoon / Evening)
 
 This supports faster reporting and reduces repeated ad-hoc analysis work.
