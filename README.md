@@ -1,7 +1,7 @@
-SQL Retail Sales Analysis (Project P1)
+#SQL Retail Sales Analysis (Project P1)
 
 
-Executive Summary
+##Executive Summary
 
 Retail transaction data was analyzed using SQL to answer key business questions around sales performance, customer behavior, product categories, and order timing.
 The project focuses on data cleaning, aggregation, and analytical querying to generate actionable retail insights from raw transactional data.
@@ -17,31 +17,15 @@ The output queries help stakeholders understand:
 
 
 
-Business Questions Solved
 
-1. Using SQL queries, the analysis answers:
+##Business Questions Solved
 
-2. Sales on specific dates
-
-3. Category performance & total revenue
-
-4. High-value transactions
-
-5. Customer demographics by category
-
-6. Top 5 customers by total spend
-
-7. Unique customers per category
-
-8. Transactions by gender & category
-
-9. Best selling month per year (window functions)
-
-10. Order distribution by time-of-day shifts
+Using SQL queries, the analysis answers key business questions including sales on specific dates, category performance and total revenue, identification of high-value transactions, customer demographics by category, top five customers by total spend, unique customers per category, transaction distribution by gender and category, best-selling month per year using window functions, and order distribution across time-of-day shifts.
 
 
 
-Methodology
+
+##Methodology
 
 1. Created database and retail_sales table
 
@@ -50,41 +34,16 @@ Methodology
 3. Performed exploratory checks (counts, distinct categories, customers)
 
 
-
-Wrote analytical SQL queries using:
-
-1. Aggregations
-
-2. Date & time functions
-
-3. Window functions
-
-4. CTEs
-
-5. CASE logic for shift bucketing
-
    
 
-Key SQL Skills Demonstrated:
+##Key SQL Skills Demonstrated:
 
-GROUP BY & aggregates, DISTINCT & customer segmentation, Window functions, Date functions, CTE, Business-oriented query design
-
-
+Aggregations, Date & time functions, Window functions, CTEs, 
 
 
 
-Results & Insights Enabled:
 
-1. The query set enables teams to quickly measure:
+##Results & Insights Enabled:
 
-2. Revenue by product category
+The query set enables teams to quickly measure revenue by product category, identify customer concentration among top buyers, evaluate seasonal best-performing months, analyze the gender–category transaction mix, and understand order patterns by time-of-day shifts (Morning, Afternoon, Evening), thereby supporting faster reporting and reducing repeated ad-hoc analysis work.
 
-3. Customer concentration among top buyers
-
-4. Seasonal best-performing months
-
-5. Gender-category transaction mix
-
-6. Order patterns by shift (Morning / Afternoon / Evening)
-
-This supports faster reporting and reduces repeated ad-hoc analysis work.
