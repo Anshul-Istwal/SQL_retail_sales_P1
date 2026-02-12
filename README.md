@@ -38,7 +38,7 @@ Using SQL queries, the analysis answers key business questions including sales o
 
 ## Key SQL Skills Demonstrated:
 
-- Aggregations, Date & time functions, Window functions, CTEs, 
+- Aggregations, Date & time functions, Window functions, CTEs
 
 
 
